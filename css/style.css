@@ -88,10 +88,13 @@ img{
     background-color: var(--primary-color);
     border: none;
     color: #fff;
+    font-size: 1rem;
     cursor: pointer;
     padding: 0.4rem 1rem;
+    text-align: center;
     outline: none;
     border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
 }
 
 .btn-rounded{
@@ -101,6 +104,13 @@ img{
 .btn-xl{
     font-size: 5.8vh;
     padding: 4vh 5.5vh;
+    text-transform: uppercase;
+}
+
+.btn-lg{
+    font-size: 3vh;
+    padding: 2.5vh 3.25vh ;
+    text-transform: uppercase;
 }
 
 .showcase-content{
@@ -148,13 +158,13 @@ img{
 
 
 .tabs p{
-    font-size: 3vh;
+    font-size: 1.2rem;
     padding-top: 2vh;
 }
 
 
 .tabs .container > div {
-    padding: 2vh 0;
+    padding: 4vh 0;
 }
 
 .tabs .container > div:hover{
@@ -171,5 +181,29 @@ img{
     max-width: 80%;
     margin: auto;
     overflow: hidden;
-    padding: 0 4vh;
+    padding: 0 6vh;
+}
+
+.tab-content{
+    padding: 7vh 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.show {
+    display: block !important;
+}
+
+#tab-1-content .tab-1-content-inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3vh ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.text-lg{
+    font-size: 1.8rem;
 }
