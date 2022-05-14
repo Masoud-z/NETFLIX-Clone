@@ -185,7 +185,7 @@ img{
 }
 
 .tab-content{
-    padding: 7vh 0;
+    padding: 8.5vh 0;
     background-color: #000;
     color: #fff;
 }
@@ -195,6 +195,7 @@ img{
 }
 
 #tab-1-content .tab-1-content-inner{
+    margin-top: 2vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3vh ;
@@ -204,6 +205,37 @@ img{
 }
 
 
+#tab-2-content .tab-2-content-top{
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 3vh ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#tab-2-content .tab-2-content-bottom{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
 .text-lg{
     font-size: 1.8rem;
+    margin-bottom: 1vh;
+}
+
+.text-md {
+    font-size: 1.5rem;
+    margin-bottom: 3vh;
+}
+
+.text-dark{
+   color: #999;
 }
