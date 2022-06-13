@@ -113,6 +113,10 @@ img{
     text-transform: uppercase;
 }
 
+.btn:hover{
+    opacity: 0.9;
+}
+
 .showcase-content{
    position: relative;
    z-index: 2;
@@ -225,6 +229,33 @@ img{
     text-align: center;
 }
 
+.table{
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table thead th{
+    padding: 0.8rem;
+    text-transform: uppercase;
+}
+
+.table tbody tr td {
+    color: #999;
+    padding: 0.8rem 1.2rem;
+    text-align: center;
+    
+}
+
+
+.table tbody tr td:first-child{
+    text-align: left;
+}
+
+.table tbody tr:nth-child(odd){
+    background-color: #222;
+}
 
 .text-lg{
     font-size: 1.8rem;
@@ -238,4 +269,8 @@ img{
 
 .text-dark{
    color: #999;
+}
+
+.text-center{
+    text-align: center;
 }
