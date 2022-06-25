@@ -194,6 +194,12 @@ img{
     color: #fff;
 }
 
+#tab-1-content,
+#tab-2-content,
+#tab-3-content{
+    display: none;
+}
+
 .show {
     display: block !important;
 }
