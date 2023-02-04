@@ -1,22 +1,46 @@
- const tabItems = document.querySelectorAll('.tab-item');
- const tabContentItems = document.querySelectorAll('.tab-content-item');
+const body = document.getElementById("body");
+const langBtn = document.getElementById("langBtn");
+const langBtnTitle = document.getElementById("langBtnTitle");
+const langList = document.getElementById("langList");
+const eng = document.getElementById("eng");
+const esp = document.getElementById("esp");
+const inputText = document.getElementById("inputText");
+const emailInput = document.getElementById("emailInput");
 
-function selectItem(e){
-    removeBorder();
-    removeShow();
-    this.classList.add('tab-border');
+body.addEventListener("wheel", function (e) {
+  langList.classList.add("hide-list");
+});
 
-    const tabContentItem = document.querySelector(`#${this.id}-content`);
-    tabContentItem.classList.add('show');
-}
+body.addEventListener("click", function (e) {
+  if (
+    e.target.id != "langBtn" &&
+    e.target.id != "langBtnTitle" &&
+    e.target.id != "langList" &&
+    e.target.id != "eng" &&
+    e.target.id != "esp"
+  ) {
+    langList.classList.add("hide-list");
+  }
+});
 
-function removeBorder(){
-    tabItems.forEach(item => item.classList.remove('tab-border'))
-}
+langBtn.addEventListener("click", function () {
+  langList.classList.toggle("hide-list");
+});
 
-function removeShow(){
-    tabContentItems.forEach(item=> item.classList.remove('show'));
-}
+eng.addEventListener("click", function () {
+  langBtnTitle.innerHTML = "English";
+  langList.classList.add("hide-list");
+});
 
- //Listen for tab click
- tabItems.forEach(item => item.addEventListener('click', selectItem));
+esp.addEventListener("click", function () {
+  langBtnTitle.innerHTML = "Español";
+  langList.classList.add("hide-list");
+});
+
+emailInput.addEventListener("focus", function(){
+  inputText.classList.add("move-text")
+})
+
+emailInput.addEventListener("blur", function(){
+  inputText.classList.remove("move-text")
+})
