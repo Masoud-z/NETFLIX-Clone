@@ -1,3 +1,5 @@
+//---------------Change language button---------------
+
 const body = document.getElementById("body");
 const langBtn = document.getElementById("langBtn");
 const langBtnTitle = document.getElementById("langBtnTitle");
@@ -37,10 +39,33 @@ esp.addEventListener("click", function () {
   langList.classList.add("hide-list");
 });
 
-emailInput.addEventListener("focus", function(){
-  inputText.classList.add("move-text")
-})
+emailInput.addEventListener("focus", function () {
+  inputText.classList.add("move-text");
+});
 
-emailInput.addEventListener("blur", function(){
-  inputText.classList.remove("move-text")
-})
+emailInput.addEventListener("blur", function () {
+  inputText.classList.remove("move-text");
+});
+
+//---------------++++---------------
+
+//---------------Questions---------------
+
+const questions = document.querySelectorAll(".question");
+
+questions.forEach((question) => {
+  question.addEventListener("click", function (e) {
+    console.log("click");
+    console.log(question.parentElement.classList);
+    e.stopPropagation();
+    questions.forEach((question) => {
+      if (question.id != e.currentTarget.id) {
+        question.parentElement.classList.remove("showAnswer");
+      }
+    });
+    const targetQuestion = e.currentTarget.parentElement;
+    targetQuestion.classList.toggle("showAnswer");
+  });
+});
+
+//---------------++++---------------
