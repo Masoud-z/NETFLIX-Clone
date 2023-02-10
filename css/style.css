@@ -238,7 +238,7 @@ img {
   margin: 10px 0 18px;
 }
 
-.showcase-content .cta {
+ .cta {
   margin-top: 18px;
   font-size: 19px;
   font-weight: 500;
@@ -512,20 +512,22 @@ img {
   font-weight: 400;
 }
 
-.lastTab{
+.lastTab {
   border-bottom: 7px solid #393939;
 }
 
 .footer {
   width: 75%;
-  margin: 1rem auto;
+  padding: 70px 45px;
+  padding-bottom: 20px;
+  margin: 0 auto;
   overflow: auto;
 }
 
 .footer,
 footer a {
-  color: #999;
-  font-size: 0.9rem;
+  color: #737373;
+  font-size: 1em;
 }
 
 .footer p {
@@ -535,11 +537,53 @@ footer a {
 .footer .footer-cols {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 4vw;
+  column-gap: 4vw;
 }
 
 .footer li {
-  line-height: 1.9;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.footerLanguBtnContainer {
+  margin-top: 20px;
+}
+
+.footerLanguBtnContainer .lang-container {
+  width: max-content;
+  position: relative;
+}
+
+.footerLanguBtnContainer .lang-btn {
+  padding: 15px 15px;
+  font-size: 16px;
+  border: 1px solid #333;
+}
+
+.footerLanguBtnContainer .lang-btn:focus {
+  border: 0.5px solid #ccc;
+}
+
+.footerLanguBtnContainer .lang-btn span {
+  padding: 0 1px 0 11px;
+  width: 70px;
+}
+
+.footerLanguBtnContainer .lang-list {
+  background-color: transparent;
+  color: #737373;
+  width: 128px;
+  bottom: 49px;
+  border: 1px solid #333;
+}
+
+.footerLanguBtnContainer .lang-list .lang {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.footerLanguBtnContainer .lang-list .lang:hover {
+  color: white;
 }
 
 .text-lg {
