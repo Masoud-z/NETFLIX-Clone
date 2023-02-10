@@ -433,11 +433,6 @@ img {
 .questions {
   margin: 2em auto;
   color: white;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
 }
 
 .qandA-container {
@@ -709,6 +704,14 @@ footer a {
   .boxshot-content{
     margin-right: unset;
   }
+
+  .qandA{
+    width: 100%;
+  }
+
+  .qandA h1{
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -777,6 +780,13 @@ footer a {
     font-size: 1rem;
   }
 
+  .qandA h1{
+    font-size: 1.62rem;
+  }
+
+  .qandA-container{
+    font-size: 1.125rem;
+  }
 }
 
 
