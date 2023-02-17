@@ -338,8 +338,8 @@ img {
 .tv-video {
   width: 72%;
   position: absolute;
-  bottom: 78px;
-  left: 53px;
+  bottom: 26%;
+  left: 13.3%;
   z-index: -1;
 }
 
@@ -350,8 +350,8 @@ img {
 .gadget-video {
   width: 61%;
   position: absolute;
-  bottom: 141px;
-  left: 74px;
+  bottom: 44%;
+  left: 20%;
   z-index: -1;
 }
 
@@ -370,12 +370,12 @@ img {
   border: 2px solid rgba(255, 255, 255, 0.25);
   border-radius: 0.75em;
   box-shadow: 0 0 2em 0 #000;
-  min-width: 15em;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 60%;
-  left: 19%;
+  min-width: 15em;
+  left: 19.5%;
   bottom: 8%;
   background-color: black;
 }
@@ -695,10 +695,10 @@ footer a {
 
   .kids{
     order: 2;
-    width: unset;
+    width: 100%;
   }
   .phoneContainer{
-    width: unset;
+    width: 100%;
     order: 2;
   }
   .boxshot-content{
@@ -805,5 +805,38 @@ footer a {
   }
   .start .start_input{
     width: 300px;
+  }
+  .tab-contant h2{
+    font-size:1.62rem;
+  }
+
+  .tab .tab-contant p{
+    font-size: 1.125rem;
+  }
+  .tab{
+    padding: 50px 5%;
+  }
+
+  .downloading-text .title{
+    font-size:0.9em;
+  }
+
+  .downloading-text .status{
+    font-size: 0.75em;
+  }
+
+  .boxshotImg{
+    height: 3em;
+  }
+}
+
+@media (max-width: 400px) {
+  .downloading{
+    left: 16.5%;
+  }
+}
+@media (max-width: 400px) {
+  .downloading{
+    left: 12.5%;
   }
 }
