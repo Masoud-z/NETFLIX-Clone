@@ -162,7 +162,7 @@ img {
   align-items: center;
 }
 
-.lang-list .lang:hover {
+.lang:hover {
   background-color: #1d7cf2;
   cursor: default;
 }
@@ -570,6 +570,7 @@ footer a {
   width: 128px;
   bottom: 49px;
   border: 1px solid #333;
+  z-index: 20;
 }
 
 .footerLanguBtnContainer .lang-list .lang {
@@ -631,13 +632,13 @@ footer a {
     max-width: 640px;
   }
 
-  .cta{
+  .cta {
     max-width: 450px;
     font-size: 23px !important;
     padding: 0 10%;
   }
 
-  .start{
+  .start {
     flex-direction: column;
     gap: 15px;
   }
@@ -651,7 +652,7 @@ footer a {
     padding: 10px 14px;
   }
 
-  .btn-start .btn-icon{
+  .btn-start .btn-icon {
     font-size: 10px;
   }
 
@@ -666,20 +667,20 @@ footer a {
     font-size: 1rem;
   }
 
-  .tab{
+  .tab {
     flex-direction: column;
     gap: 0;
   }
 
-  .tab-contant h2{
+  .tab-contant h2 {
     font-size: 2.5rem;
   }
-  .tab .tab-contant p{
+  .tab .tab-contant p {
     font-size: 1.25rem;
     font-weight: 400;
   }
 
-  .tab-contant{
+  .tab-contant {
     width: unset;
     max-width: 1100px;
     align-items: center;
@@ -688,35 +689,35 @@ footer a {
     order: 1;
   }
 
-  .imgVideo-container{
+  .imgVideo-container {
     width: unset;
     max-width: 1100px;
     order: 2;
   }
 
-  .kids{
+  .kids {
     order: 2;
     width: 100%;
   }
-  .phoneContainer{
+  .phoneContainer {
     width: 100%;
     order: 2;
   }
-  .boxshot-content{
+  .boxshot-content {
     margin-right: unset;
   }
 
-  .qandA{
+  .qandA {
     width: 100%;
   }
 
-  .qandA h1{
+  .qandA h1 {
     font-size: 2.5rem;
   }
 }
 
 @media (max-width: 700px) {
-  .cta{
+  .cta {
     font-size: 18px !important;
   }
   #tab-1-content .tab-1-content-inner {
@@ -734,7 +735,6 @@ footer a {
   }
 }
 
-
 @media (max-width: 550px) {
   .showcase-top img {
     width: 6.5rem;
@@ -747,12 +747,12 @@ footer a {
     font-size: 1.125rem;
   }
 
-  .cta{
+  .cta {
     font-size: 17px !important;
     padding: 0 5%;
   }
 
-  .start{
+  .start {
     flex-direction: column;
     gap: 15px;
   }
@@ -766,7 +766,7 @@ footer a {
     padding: 10px 14px;
   }
 
-  .btn-start .btn-icon{
+  .btn-start .btn-icon {
     font-size: 10px;
   }
 
@@ -781,63 +781,62 @@ footer a {
     font-size: 1rem;
   }
 
-  .qandA h1{
+  .qandA h1 {
     font-size: 1.62rem;
   }
 
-  .qandA-container{
+  .qandA-container {
     font-size: 1.125rem;
   }
 }
-
 
 @media (max-width: 500px) {
   .offer {
     gap: 6px;
   }
   .offer .new {
-    font-size:0.6rem;
+    font-size: 0.6rem;
   }
-  .offer .description{
+  .offer .description {
     font-size: 14px;
   }
-  .description .price{
+  .description .price {
     font-size: 15px;
   }
-  .start .start_input{
+  .start .start_input {
     width: 300px;
   }
-  .tab-contant h2{
-    font-size:1.62rem;
+  .tab-contant h2 {
+    font-size: 1.62rem;
   }
 
-  .tab .tab-contant p{
+  .tab .tab-contant p {
     font-size: 1.125rem;
   }
-  .tab{
+  .tab {
     padding: 50px 5%;
   }
 
-  .downloading-text .title{
-    font-size:0.9em;
+  .downloading-text .title {
+    font-size: 0.9em;
   }
 
-  .downloading-text .status{
+  .downloading-text .status {
     font-size: 0.75em;
   }
 
-  .boxshotImg{
+  .boxshotImg {
     height: 3em;
   }
 }
 
 @media (max-width: 400px) {
-  .downloading{
+  .downloading {
     left: 16.5%;
   }
 }
 @media (max-width: 400px) {
-  .downloading{
+  .downloading {
     left: 12.5%;
   }
 }
