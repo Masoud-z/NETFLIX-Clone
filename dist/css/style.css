@@ -103,7 +103,7 @@ img {
 
 .showcase-top {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   height: 4.5rem;
 }
 
@@ -153,9 +153,11 @@ img {
   color: white;
   border-radius: 6px;
   overflow: hidden;
+  z-index: 20;
 }
 
 .lang-list .lang {
+  z-index: 30;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -579,6 +581,8 @@ footer a {
 }
 
 .footerLanguBtnContainer .lang-list .lang:hover {
+  background-color: #1d7cf2;
+  cursor: default;
   color: white;
 }
 
