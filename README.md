@@ -1,6 +1,6 @@
 # NETFLIX Clone
 Clone NETFLIX landing page to practice.  
-https://www.netflix.com/  
+https://web.archive.org/web/20230216215208/https://www.netflix.com/  
 </br>
 Pure HTML, CSS, and JavaScript.
 <div align="center">
