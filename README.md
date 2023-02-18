@@ -1,10 +1,8 @@
 # NETFLIX Clone
 Clone NETFLIX landing page to practice.  
-https://web.archive.org/web/20230216215208/https://www.netflix.com/  
-</br>
-</br>
 Live: https://masoud-z.github.io/NETFLIX-Clone/   </br>
 Last update: 2/17/2023  
+https://web.archive.org/web/20230216215208/https://www.netflix.com/  
 </br>
 Pure HTML, CSS, and JavaScript.
 <div align="center">
