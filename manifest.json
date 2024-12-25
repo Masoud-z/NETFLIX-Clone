@@ -1,7 +1,7 @@
 {
   "name": "NETFLIX clone",
   "short_name": "NETFLIX",
-  "start_url": "index.html",
+  "start_url": "/NETFLIX-Clone/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
