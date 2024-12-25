@@ -12,7 +12,7 @@ body.addEventListener("wheel", function () {
 });
 
 body.addEventListener("click", function () {
-    langList.classList.add("hide-list");
+  langList.classList.add("hide-list");
 });
 
 langBtn.addEventListener("click", function (e) {
@@ -64,7 +64,6 @@ FQemailInput.addEventListener("blur", function () {
 
 //---------------++++---------------
 
-
 //---------------Questions---------------
 
 const questions = document.querySelectorAll(".question");
@@ -86,8 +85,6 @@ questions.forEach((question) => {
 
 //---------------++++---------------
 
-
-
 //---------------Change footer language button---------------
 
 const flangBtn = document.getElementById("flangBtn");
@@ -101,7 +98,7 @@ body.addEventListener("wheel", function () {
 });
 
 body.addEventListener("click", function () {
-    flangList.classList.add("hide-list");
+  flangList.classList.add("hide-list");
 });
 
 flangBtn.addEventListener("click", function (e) {
@@ -123,3 +120,8 @@ fesp.addEventListener("click", function (e) {
 });
 
 //---------------++++---------------
+
+// console.log(
+//   ["B$u$i$ld","$t$$h$e","N$e$x$t","E$$ra","$$o$f$","S$$of$t$wa$r$e","De$$ve$l$op$me$n$t",].join(" ").replace(/\$/g, "").toUpperCase()
+// );
+// ["B$u$i$ld","$t$$h$e","N$e$x$t","E$$ra","$$o$f$","S$$of$t$wa$r$e","De$$ve$l$op$me$n$t",].join(" ").replace(/\$/g, "").toUpperCase();
