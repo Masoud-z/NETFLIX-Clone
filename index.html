@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="logo.svg" type="image/x-icon"/>
+    <link rel="icon" href="logo.svg" type="image/x-icon" />
     <link href="css/style.css" rel="stylesheet" />
+    <link rel="manifest" href="manifest.json" />
     <script
       src="https://kit.fontawesome.com/a79d884217.js"
       crossorigin="anonymous"
@@ -323,3 +324,14 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker
+        .register("/serviceWorker.js")
+        .then((res) => console.log("service worker registered"))
+        .catch((err) => console.log("service worker not registered", err));
+    });
+  }
+</script>
